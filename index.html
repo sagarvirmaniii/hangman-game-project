@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+  <!-- Bootstrap 4 CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
-  <title>Hangman Project</title>
+  <title>Hangman</title>
 </head>
 <body>
 <div class="container">
@@ -18,9 +19,10 @@
     <p>Guess the Programming Language:</p>
     <p id="wordSpotlight">The word to be guessed goes here</p>
     <div id="keyboard"></div>
-    <button class="btn btn-info">Reset</button>
+    <button class="btn btn-info" onClick="reset()">Reset</button>
   </div> 
 </div>
 
+<script src='./js/hangman.js'></script>
 </body>
 </html>
